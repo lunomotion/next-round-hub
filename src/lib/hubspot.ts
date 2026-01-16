@@ -20,6 +20,10 @@ export async function searchCompanies(query: string) {
   return [];
 }
 
+export async function fetchWatchlistCompanies() {
+  return [];
+}
+
 export async function fetchDeals(limit: number = 100) {
   return [];
 }
